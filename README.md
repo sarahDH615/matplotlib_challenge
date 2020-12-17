@@ -24,7 +24,7 @@ This pandas file contains analysis done on data from a study on mice with squamo
     * Creating a new dataframe (top_regimes_df) that holds only the measurements taken for the final timepoint of each mouse ID.
     * Printing the number of values taken per timepoint for each drug regimen.
     * Printing the mouse IDs that have same final tumor volume as the start value for all mouse IDs: they all have the final timepoint of zero, meaning no measurements were taken for those mouse IDs after the starting timepoint.
-    * Creating seperate dataframes for each of the four top drug regimens (ca_df, ra_df, in_df, ce_df), and for each dataframe, printing:
+    * Creating separate dataframes for each of the four top drug regimens (ca_df, ra_df, in_df, ce_df), and for each dataframe, printing:
         * the different final timepoints and the number of times they appear within the dataframe
         * the contents of the dataframe
         * the average of all the values that are for timepoint 45 (the timepoint at which the study ended)
