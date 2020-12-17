@@ -14,7 +14,7 @@ This pandas file contains analysis done on data from a study on mice with squamo
     * Creating a new dataframe (no_dups_df) that has no duplicate rows within a mouse ID.
     * Printing how many measurements are taken at each time point (no_dups_df.value_counts()).
     * Printing the information on the mouse ID that had duplicate values.
-    * Comparing the number of mice in the original dataframe    (merged_df) and the cleaned dataframe (no_dups_df) to ensure that only duplicate values, and not all the data for a mouse,got deleted.
+    * Comparing the number of mice in the original dataframe    (merged_df) and the cleaned dataframe (no_dups_df) to ensure that only duplicate values, and not all the data for a mouse, got deleted.
 * Summary statistics table: divided by drug regimen, using two methods of generating summary statistics (groupby and .agg)
 * Total Number of Measurements For Each Drug Regimen:
     * Bar charts showing the total number of measurements taken for each drug regimen, once using plt.plot, and the other using pd.df.plot)
@@ -29,7 +29,7 @@ This pandas file contains analysis done on data from a study on mice with squamo
         * the contents of the dataframe
         * the average of all the values that are for timepoint 45 (the timepoint at which the study ended)
     * Calculating the quartiles, upper and lower bounds for outliers, and identifying and potential outliers.
-    * Creating a boxplot for each of the four regimens, with any outliers as bright red circles.
+    * Creating a boxplot with all of the four regimens, with any outliers as bright red circles.
 * Tumor Value over Time for Arbitrary Mouse in Capomulin Regimen: generating a line plot for a randomly chosen mouse ID in the Capomulin regimen, showing the progression of its tumor volume.
 * Average Final Tumor Volume vs. Mouse Weight: creating a scatter plot for each drug regimen, showing final average tumor volume of all mice on each drug, based on their weight class, with a linear regression graphed on top of each one. The graphs beside the one for Capomulin are done in order to see whether it is possible to draw out any distinctive qualities in the Capomulin graph by comparison.
 
