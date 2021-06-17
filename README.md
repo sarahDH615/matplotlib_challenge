@@ -19,9 +19,11 @@ This pandas file contains analysis done on data from a study on mice with squamo
     * Comparing the number of mice in the original dataframe    (merged_df) and the cleaned dataframe (no_dups_df) to ensure that only duplicate values, and not all the data for a mouse, got deleted.
 * Summary statistics table: divided by drug regimen, using two methods of generating summary statistics (groupby and .agg)
 * Total Number of Measurements For Each Drug Regimen:
-    * Bar charts showing the total number of measurements taken for each drug regimen, once using plt.plot, and the other using pd.df.plot)
+    * Bar charts showing the total number of measurements taken for each drug regimen, once using plt.plot, and the other using pd.df.plot
+    ![Total Measurements Per Drug Bar Chart](/images/measurements_per_regimen.png)
     * Printing the lowest and highest number of measurements taken per drug regimen, and some summary statistics, to observe the range of measurements taken, and average value.
 * Distribution of male/female mice in the study: creating pie charts (done twice: once using plt.plot, and the other using pd.df.plot)
+![Gender Distribution](/images/gendDist.png)
 * Quartiles and Potential Outliers for Final Average Tumor Volume:
     * Creating a new dataframe (top_regimes_df) that holds only the measurements taken for the final timepoint of each mouse ID.
     * Printing the number of values taken per timepoint for each drug regimen.
@@ -32,10 +34,16 @@ This pandas file contains analysis done on data from a study on mice with squamo
         * the average of all the values that are for timepoint 45 (the timepoint at which the study ended)
     * Calculating the quartiles, upper and lower bounds for outliers, and identifying and potential outliers.
     * Creating a boxplot with all of the four regimens, with any outliers as bright red circles.
+    ![Boxplot](/images/final_tumor_size_boxplot.png)
 * Tumor Value over Time for Arbitrary Mouse in Capomulin Regimen: generating a line plot for a randomly chosen mouse ID in the Capomulin regimen, showing the progression of its tumor volume.
-* Average Final Tumor Volume vs. Mouse Weight: creating a scatter plot for each drug regimen, showing final average tumor volume of all mice on each drug, based on their weight class, with a linear regression graphed on top of each one. The graphs beside the one for Capomulin are done in order to see whether it is possible to draw out any distinctive qualities in the Capomulin graph by comparison.
+![Random mouse tumour volume](/images/rand_mouse_tum_vol.png)
 
-### Note
+* Average Final Tumor Volume vs. Mouse Weight: creating a scatter plot for each drug regimen, showing final average tumor volume of all mice on each drug, based on their weight class, with a linear regression graphed on top of each one. The graphs beside the one for Capomulin are done in order to see whether it is possible to draw out any distinctive qualities in the Capomulin graph by comparison.
+![Capomulin Average Tumour Size line and linear regression graph](/images/capomulin_avg_tum_size_linreg.png)
+
+### Analysis and visualisation
+
+Refer to the [notebook](pymaceuticals_starter_edited.ipynb) for analysis of trends seen in the data, and for full graphs.
 
 Click [here](https://sarahdh615.github.io/web-design-challenge/) to find a website displaying key charts from this project, and [here](https://github.com/sarahDH615/web-design-challenge) for the code behind it.
 
