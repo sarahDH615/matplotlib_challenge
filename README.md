@@ -1,6 +1,6 @@
 # matplotlib_challenge
 
-![Test tubes with coloured liquids](/images/testTube.jpg)
+![Test tubes with coloured liquids](/images/testTubes.jpg)
 
 ### contains:
 pymaceuticals_starter_edited.ipynb 
