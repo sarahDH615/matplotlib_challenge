@@ -35,4 +35,8 @@ This pandas file contains analysis done on data from a study on mice with squamo
 * Tumor Value over Time for Arbitrary Mouse in Capomulin Regimen: generating a line plot for a randomly chosen mouse ID in the Capomulin regimen, showing the progression of its tumor volume.
 * Average Final Tumor Volume vs. Mouse Weight: creating a scatter plot for each drug regimen, showing final average tumor volume of all mice on each drug, based on their weight class, with a linear regression graphed on top of each one. The graphs beside the one for Capomulin are done in order to see whether it is possible to draw out any distinctive qualities in the Capomulin graph by comparison.
 
+### Note
+
+Click [here](https://sarahdh615.github.io/web-design-challenge/) to find a website displaying key charts from this project, and [here](https://github.com/sarahDH615/web-design-challenge) for the code behind it.
+
 
