@@ -20,12 +20,14 @@ This pandas file contains analysis done on data from a study on mice with squamo
 * Summary statistics table: divided by drug regimen, using two methods of generating summary statistics (groupby and .agg)
 * Total Number of Measurements For Each Drug Regimen:
     * Bar charts showing the total number of measurements taken for each drug regimen, once using plt.plot, and the other using pd.df.plot
-    
-    ![Total Measurements Per Drug Bar Chart](/images/measurements_per_regimen.png)
+    <p align="center">
+      <img width="60%" alt="Total Measurements Per Drug Bar Chart" src="/images/measurements_per_regimen.png">
+    </p>
     * Printing the lowest and highest number of measurements taken per drug regimen, and some summary statistics, to observe the range of measurements taken, and average value.
 * Distribution of male/female mice in the study: creating pie charts (done twice: once using plt.plot, and the other using pd.df.plot)
-
-![Gender Distribution](/images/gendDist.png)
+<p align="center">
+      <img width="60%" alt="Gender Distribution" src="/images/gendDist.png">
+</p>
 * Quartiles and Potential Outliers for Final Average Tumor Volume:
     * Creating a new dataframe (top_regimes_df) that holds only the measurements taken for the final timepoint of each mouse ID.
     * Printing the number of values taken per timepoint for each drug regimen.
