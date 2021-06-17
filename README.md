@@ -28,6 +28,7 @@ This pandas file contains analysis done on data from a study on mice with squamo
 <p align="center">
       <img width="60%" alt="Gender Distribution" src="/images/gendDist.png">
 </p>
+
 * Quartiles and Potential Outliers for Final Average Tumor Volume:
     * Creating a new dataframe (top_regimes_df) that holds only the measurements taken for the final timepoint of each mouse ID.
     * Printing the number of values taken per timepoint for each drug regimen.
@@ -38,9 +39,13 @@ This pandas file contains analysis done on data from a study on mice with squamo
         * the average of all the values that are for timepoint 45 (the timepoint at which the study ended)
     * Calculating the quartiles, upper and lower bounds for outliers, and identifying and potential outliers.
     * Creating a boxplot with all of the four regimens, with any outliers as bright red circles.
-  ![Boxplot](/images/final_tumor_size_boxplot.png)
+    <p align="center">
+      <img width="60%" alt="Boxplot" src="/images/final_tumor_size_boxplot.png">
+    </p>
 * Tumor Value over Time for Arbitrary Mouse in Capomulin Regimen: generating a line plot for a randomly chosen mouse ID in the Capomulin regimen, showing the progression of its tumor volume.
-![Random mouse tumour volume](/images/rand_mouse_tum_vol.png)
+<p align="center">
+      <img width="60%" alt="Random mouse tumour volume" src="/images/rand_mouse_tum_vol.png">
+</p>
 
 * Average Final Tumor Volume vs. Mouse Weight: creating a scatter plot for each drug regimen, showing final average tumor volume of all mice on each drug, based on their weight class, with a linear regression graphed on top of each one. The graphs beside the one for Capomulin are done in order to see whether it is possible to draw out any distinctive qualities in the Capomulin graph by comparison.
 ![Capomulin Average Tumour Size line and linear regression graph](/images/capomulin_avg_tum_size_linreg.png)
